@@ -58,10 +58,17 @@ body {
 .box-r {
     border-right: 1px solid black;
 }
-.tab-w{
-    background: #eff0f1!important;
-    color: #7b7c7c!important;
+
+.tab-w {
+    background: #eff0f1 !important;
+    color: #7b7c7c !important;
 }
+
+.w-ss {
+    font-size: 14px !important;
+    font-weight: 500 !important;
+}
+
 /*==================================nav-start======================================================*/
 nav {
     box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.1);
@@ -114,9 +121,11 @@ nav form img {
     padding: 40px;
     box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.3);
 }
-#banner .banner-content .big img{
+
+#banner .banner-content .big img {
     width: 100%;
 }
+
 #banner .banner-content .smaller {
     margin-top: 30px;
 }
@@ -483,30 +492,34 @@ nav form img {
     line-height: 24px;
 }
 
-#like .like-content .like-it{
+#like .like-content .like-it {
     margin: 40px 0;
     background: #f0f0f0;
     width: 100%;
     height: 448px;
     position: relative;
 }
-#like .like-it .top-text{
+
+#like .like-it .top-text {
     position: absolute;
     top: 40px;
     left: 40px;
 }
-#like .like-it .top-text h2{
+
+#like .like-it .top-text h2 {
     font-family: 'Lato', sans-serif;
     font-weight: 900;
     font-size: 32px;
 }
-#like .like-it .top-text .text{
+
+#like .like-it .top-text .text {
     font-family: 'Lato', sans-serif;
     font-size: 18px;
     font-weight: 600;
     color: #9d9d9d;
 }
-#like .like-it .middle-text{
+
+#like .like-it .middle-text {
     font-family: 'Lato', sans-serif;
     font-size: 32px;
     font-weight: 500;
@@ -514,14 +527,16 @@ nav form img {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
 }
-#like .like-it .bottom-text{
+
+#like .like-it .bottom-text {
     position: absolute;
     bottom: 40px;
     right: 40px;
 }
-#like .like-it  .bottom-text a{
+
+#like .like-it .bottom-text a {
     color: black;
     text-decoration: underline;
     font-family: 'Lato', sans-serif;
@@ -532,43 +547,51 @@ nav form img {
 
 /*==================================like-end======================================================*/
 /*==================================footer-start======================================================*/
-#footer .container{
+#footer .container {
     padding: 40px;
 }
-#footer .item .title{
+
+#footer .item .title {
     font-family: 'Roboto', sans-serif;
     font-size: 24px;
     font-weight: 600;
     color: black;
 }
-#footer .item ul{
+
+#footer .item ul {
     margin-top: 30px;
 }
-#footer .item ul li{
+
+#footer .item ul li {
     display: block;
 }
-#footer .item ul li a{
+
+#footer .item ul li a {
     color: #9d9d9d;
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
     font-size: 18px;
     line-height: 24px;
 }
-#footer .social .title{
+
+#footer .social .title {
     font-family: 'Roboto', sans-serif;
     font-size: 24px;
     font-weight: 600;
     color: black;
 }
-#footer .social{
+
+#footer .social {
     padding: 0 40px;
 }
-#footer .tabs{
+
+#footer .tabs {
     display: flex;
     margin-top: 30px;
 
 }
-#footer .social .tabs .tab{
+
+#footer .social .tabs .tab {
     width: 50%;
     padding: 10px;
     text-align: center;
@@ -578,17 +601,20 @@ nav form img {
     font-weight: 600;
     font-size: 24px;
 }
-#footer .social-title{
+
+#footer .social-title {
     font-family: 'Roboto', sans-serif;
     font-size: 24px;
     font-weight: 600;
     color: black;
     margin-top: 30px;
 }
-#footer .social-link li{
-    margin: 0 5px ;
+
+#footer .social-link li {
+    margin: 0 5px;
 }
-#footer .social-link a{
+
+#footer .social-link a {
     width: 50px;
     height: 50px;
     text-align: center;
@@ -600,4 +626,5 @@ nav form img {
     display: inline-block;
     margin-top: 20px;
 }
+
 /*==================================footer-end======================================================*/

@@ -84,6 +84,10 @@ nav form input {
     border: none;
     background: #eff0f1;
     outline: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: black;
+    font-weight: 500;
 }
 
 nav form input::placeholder {
@@ -91,7 +95,7 @@ nav form input::placeholder {
     font-weight: 600;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
-    padding-left: 30px;
+    padding-left: 10px;
 }
 
 nav form img {

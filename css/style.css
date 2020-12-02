@@ -110,7 +110,9 @@ nav form img {
     padding: 40px;
     box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.3);
 }
-
+#banner .banner-content .big img{
+    width: 100%;
+}
 #banner .banner-content .smaller {
     margin-top: 30px;
 }
@@ -195,14 +197,17 @@ nav form img {
 }
 
 #banner .banner-footer a {
-    padding: 10px 40px;
+    width: 40%;
+    height: 50px;
     background: #211b4e;
     margin-left: 20px;
     color: white;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 5px;
 }
 
 /*==================================banner-end======================================================*/

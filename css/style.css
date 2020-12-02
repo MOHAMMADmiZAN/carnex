@@ -472,15 +472,20 @@ nav form img {
 }
 
 #Specifications .Specifications-right .loan-app {
-    padding: 15px 40px 40px 40px;
+    width: 100%;
+    height: 90px;
     background: #ffddd0;
     text-align: center;
+
+
+}
+#Specifications .Specifications-right .loan-app a{
     font-family: 'Roboto', sans-serif;
     font-size: 22px;
     font-weight: 600;
-
+    color: black;
+    line-height: 90px;
 }
-
 /*==================================Specifications-end======================================================*/
 /*==================================like-start======================================================*/
 #like .like-content {

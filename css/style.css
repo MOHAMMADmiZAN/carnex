@@ -1,0 +1,594 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a, a:hover, a:focus {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ol, ul, li {
+    display: inline-block;
+    list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin-bottom: 0;
+}
+
+body {
+    overflow-x: hidden;
+    position: relative;
+}
+
+.b-none {
+    border-bottom: none !important;
+}
+
+.w-b {
+    font-weight: 600 !important;
+    color: black !important;
+}
+
+.w-s {
+    color: #aaaaaa !important;
+}
+
+.box-act {
+    background: #f84f12 !important;
+    color: white !important;
+    border-color: #f84f12 !important;;
+}
+
+.box-l {
+    border-left: 1px solid black;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.box-ra-r {
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.box-r {
+    border-right: 1px solid black;
+}
+.tab-w{
+    background: #eff0f1!important;
+    color: #7b7c7c!important;
+}
+/*==================================nav-start======================================================*/
+nav {
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.1);
+}
+
+nav .nav-link {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: black;
+}
+
+nav form {
+    position: relative;
+    margin-left: 30px;
+}
+
+nav form input {
+    padding: 15px 15px 15px 40px;
+    border: none;
+    background: #eff0f1;
+    outline: none;
+}
+
+nav form input::placeholder {
+    color: #7b7c7c;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    padding-left: 30px;
+}
+
+nav form img {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+/*==================================nav-end======================================================*/
+/*==================================banner-start======================================================*/
+#banner {
+    margin: 60px 0;
+}
+
+#banner .banner-content {
+    padding: 40px;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.3);
+}
+
+#banner .banner-content .smaller {
+    margin-top: 30px;
+}
+
+#banner .banner-content .smaller img {
+    width: 100%;
+}
+
+#banner .banner-content .banner-right {
+    margin-top: 30px;
+}
+
+#banner .banner-content .banner-right h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    color: #f84f12;
+}
+
+#banner .banner-content .banner-right h6 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #f84f12;
+    padding: 5px;
+    border-left: 1px solid #f84f12;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#banner .banner-content .banner-right .title h5 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+
+}
+
+#banner .sort-details .item {
+    display: flex;
+    margin-top: 15px;
+}
+
+#banner .sort-details .item .icon {
+    margin-right: 10px;
+}
+
+#banner .sort-details .item .text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+#banner .content {
+    margin-top: 20px;
+}
+
+#banner .content h5 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+#banner .content p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: justify;
+}
+
+#banner .banner-footer {
+    margin-top: 20px;
+    display: flex;
+}
+
+#banner .banner-footer h5 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+#banner .banner-footer a {
+    padding: 10px 40px;
+    background: #211b4e;
+    margin-left: 20px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+/*==================================banner-end======================================================*/
+/*==================================warranty-start======================================================*/
+#warranty .war-content {
+    margin: 50px 0;
+    padding: 40px;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.3);
+}
+
+#warranty .war-content .right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#warranty .war-content .text {
+    margin-left: 20px;
+    color: #4d4d4d;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+
+#warranty .war-content .item {
+    display: flex;
+    align-items: center;
+    background: #f7f7f7;
+    padding: 10px 15px;
+}
+
+#warranty .war-content .item i {
+    color: #4d4d4d;
+    font-size: 20px;
+    margin-right: 10px;
+
+}
+
+#warranty .war-content .item .i-text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 10px;
+}
+
+/*==================================warranty-end======================================================*/
+/*==================================Mechanic-start======================================================*/
+#Mechanic .Mechanic-content {
+    margin: 50px 0;
+    padding: 40px;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.3);
+}
+
+#Mechanic .Mechanic-content .title {
+    display: flex;
+}
+
+#Mechanic .Mechanic-content .title .text {
+    margin-left: 20px;
+    color: #4d4d4d;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+}
+
+#Mechanic .Mechanic-content .details .item {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    align-items: center;
+    margin-top: 10px;
+}
+
+#Mechanic .Mechanic-content .details .item .de-icon {
+    display: flex;
+    align-items: center;
+
+}
+
+#Mechanic .Mechanic-content .details .item .text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #4d4d4d;
+}
+
+#Mechanic .Mechanic-content .details .item .de-icon .text {
+    padding: 0 10px;
+    font-weight: 600;
+    color: black;
+}
+
+#Mechanic .Mechanic-content .mes-right {
+    margin-top: 65px;
+}
+
+#Mechanic .Mechanic-content .mes-right img {
+    width: 100%;
+}
+
+/*==================================Mechanic-end======================================================*/
+/*==================================Specifications-start======================================================*/
+#Specifications .Specifications-left {
+    margin: 50px 0;
+    padding: 40px;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.3);
+    text-align: center;
+
+}
+
+#Specifications .Specifications-left .title {
+    display: flex;
+
+}
+
+#Specifications .Specifications-left .title .icon {
+    margin-right: 10px;
+}
+
+#Specifications .Specifications-left .title .text {
+    margin-left: 20px;
+    color: #4d4d4d;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+}
+
+#Specifications .Specifications-left .item {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    align-items: center;
+    margin-top: 10px;
+}
+
+#Specifications .Specifications-left .item .text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #4d4d4d;
+}
+
+#Specifications .Specifications-left .link {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#Specifications .Specifications-left .link a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #4d4d4d;
+
+}
+
+#Specifications .Specifications-left .link a:hover {
+    color: black;
+}
+
+#Specifications .Specifications-right {
+    margin: 50px 0;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.3);
+
+
+}
+
+#Specifications .Specifications-right .loan-cal {
+    background: #ffddd0;
+    padding: 40px;
+}
+
+#Specifications .Specifications-right .loan-cal h2 {
+    color: #4d4d4d;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+#Specifications .Specifications-right .loan-cal .amount {
+    margin-top: 50px;
+    text-align: right;
+}
+
+#Specifications .Specifications-right .loan-cal .amount .text {
+    color: #4d4d4d;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 24px;
+}
+
+#Specifications .Specifications-right .loan-cal .amount h1 {
+    color: #4d4d4d;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 24px;
+    margin-top: 10px;
+}
+
+#Specifications .Specifications-right .loan-con {
+    padding: 20px;
+}
+
+#Specifications .Specifications-right .item {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    align-items: center;
+    margin-top: 10px;
+}
+
+#Specifications .Specifications-right .item .text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#Specifications .Specifications-right .loan-pre {
+    padding: 0 40px 40px 40px;
+    display: flex;
+
+}
+
+#Specifications .Specifications-right .loan-pre .box {
+    height: 50px;
+    width: 80px;
+    text-align: center;
+    line-height: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+
+}
+
+#Specifications .Specifications-right .loan-app {
+    padding: 15px 40px 40px 40px;
+    background: #ffddd0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+
+}
+
+/*==================================Specifications-end======================================================*/
+/*==================================like-start======================================================*/
+#like .like-content {
+    margin: 50px 0;
+    padding: 40px;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.3);
+}
+
+#like .like-content .title h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+#like .like-content .like-it{
+    margin: 40px 0;
+    background: #f0f0f0;
+    width: 100%;
+    height: 448px;
+    position: relative;
+}
+#like .like-it .top-text{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+#like .like-it .top-text h2{
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 32px;
+}
+#like .like-it .top-text .text{
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #9d9d9d;
+}
+#like .like-it .middle-text{
+    font-family: 'Lato', sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    color: #9d9d9d;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#like .like-it .bottom-text{
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+}
+#like .like-it  .bottom-text a{
+    color: black;
+    text-decoration: underline;
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+
+}
+
+/*==================================like-end======================================================*/
+/*==================================footer-start======================================================*/
+#footer .container{
+    padding: 40px;
+}
+#footer .item .title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: black;
+}
+#footer .item ul{
+    margin-top: 30px;
+}
+#footer .item ul li{
+    display: block;
+}
+#footer .item ul li a{
+    color: #9d9d9d;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+}
+#footer .social .title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: black;
+}
+#footer .social{
+    padding: 0 40px;
+}
+#footer .tabs{
+    display: flex;
+    margin-top: 30px;
+
+}
+#footer .social .tabs .tab{
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    background: #211b4e;
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+}
+#footer .social-title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: black;
+    margin-top: 30px;
+}
+#footer .social-link li{
+    margin: 0 5px ;
+}
+#footer .social-link a{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: black;
+    font-size: 18px;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 20px;
+}
+/*==================================footer-end======================================================*/
